@@ -1,0 +1,30 @@
+{
+  "name": "mean",
+  "version": "1.0.0",
+  "description": "MEAN stack authentication app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "*",
+    "mongoose": "*",
+    "bcryptjs": "*",
+    "cors": "*",
+    "jsonwebtoken": "*",
+    "body-parser": "*",
+    "passport": "*",
+    "passport-jwt": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexeysvyridov/MEAN-Authentication-app.git"
+  },
+  "author": "aleksey svyridov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexeysvyridov/MEAN-Authentication-app/issues"
+  },
+  "homepage": "https://github.com/alexeysvyridov/MEAN-Authentication-app#readme"
+}
